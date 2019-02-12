@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utils.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="DeveloperPortalRegistrationTest(failed)">
+    <classes>
+      <class name="lbstestcases.CreateLISubscription">
+        <methods>
+          <include name="CreateLIFreeSubscription"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- lbstestcases.CreateLISubscription -->
+    </classes>
+  </test> <!-- DeveloperPortalRegistrationTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53881" started-at="2019-02-04T13:09:41Z" finished-at="2019-02-04T13:10:35Z">
+    <groups>
+    </groups>
+    <test name="DeveloperPortalRegistrationTest" duration-ms="53881" started-at="2019-02-04T13:09:41Z" finished-at="2019-02-04T13:10:35Z">
+      <class name="lbstestcases.VerifyLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:lbstestcases.VerifyLogin@153f17c]" name="setup" is-config="true" duration-ms="7267" started-at="2019-02-04T13:09:41Z" finished-at="2019-02-04T13:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ExecuteOAuthAPI()[pri:0, instance:lbstestcases.VerifyLogin@153f17c]" name="ExecuteOAuthAPI" duration-ms="3464" started-at="2019-02-04T13:09:49Z" finished-at="2019-02-04T13:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteOAuthAPI -->
+        <test-method status="PASS" signature="VerifyValidLogin()[pri:0, instance:lbstestcases.VerifyLogin@153f17c]" name="VerifyValidLogin" duration-ms="39946" started-at="2019-02-04T13:09:52Z" finished-at="2019-02-04T13:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidLogin -->
+        <test-method status="PASS" signature="ExecuteGeoSearchAPI()[pri:0, instance:lbstestcases.VerifyLogin@153f17c]" name="ExecuteGeoSearchAPI" duration-ms="2092" started-at="2019-02-04T13:10:32Z" depends-on-methods="lbstestcases.VerifyLogin.ExecuteOAuthAPI" finished-at="2019-02-04T13:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteGeoSearchAPI -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lbstestcases.VerifyLogin@153f17c]" name="tearDown" is-config="true" duration-ms="1067" started-at="2019-02-04T13:10:34Z" finished-at="2019-02-04T13:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lbstestcases.VerifyLogin -->
+    </test> <!-- DeveloperPortalRegistrationTest -->
+  </suite> <!-- Suite -->
+</testng-results>
